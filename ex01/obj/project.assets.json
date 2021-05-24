@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Илюша\\Desktop\\glowing-dollop\\ex00\\day00.csproj",
-      "projectName": "day00",
-      "projectPath": "C:\\Users\\Илюша\\Desktop\\glowing-dollop\\ex00\\day00.csproj",
+      "projectUniqueName": "C:\\Users\\Илюша\\Desktop\\glowing-dollop\\ex01\\ex01.csproj",
+      "projectName": "ex01",
+      "projectPath": "C:\\Users\\Илюша\\Desktop\\glowing-dollop\\ex01\\ex01.csproj",
       "packagesPath": "C:\\Users\\Илюша\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Илюша\\Desktop\\glowing-dollop\\ex00\\obj\\",
+      "outputPath": "C:\\Users\\Илюша\\Desktop\\glowing-dollop\\ex01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Илюша\\AppData\\Roaming\\NuGet\\NuGet.Config"
