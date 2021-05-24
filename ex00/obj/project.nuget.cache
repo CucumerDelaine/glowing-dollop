@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FAKiFS2p6Mc6wCA3T6Y90ygL8M6uIZ34QedtulFUZHCv+Wtb2gXelmyjIzLau6NzRoPL6DjzTMbmqn+MX5cPjg==",
+  "dgSpecHash": "fyxesq459JPEXb4TcS+lxE+MxWjSc6ch6QiTIklJXcEF6oWjrLH6uRegif1/JiTB7xAfFNMwPQT9GQImcfGq5w==",
   "success": true,
-  "projectFilePath": "/Users/cdelaine/day00/day00.csproj",
+  "projectFilePath": "/Users/cdelaine/day00/day1/ex00/day00.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

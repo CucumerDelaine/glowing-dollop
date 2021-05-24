@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/cdelaine/day00/day00.csproj": {}
+    "/Users/cdelaine/day00/day1/ex00/day00.csproj": {}
   },
   "projects": {
-    "/Users/cdelaine/day00/day00.csproj": {
+    "/Users/cdelaine/day00/day1/ex00/day00.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/cdelaine/day00/day00.csproj",
+        "projectUniqueName": "/Users/cdelaine/day00/day1/ex00/day00.csproj",
         "projectName": "day00",
-        "projectPath": "/Users/cdelaine/day00/day00.csproj",
+        "projectPath": "/Users/cdelaine/day00/day1/ex00/day00.csproj",
         "packagesPath": "/Users/cdelaine/.nuget/packages/",
-        "outputPath": "/Users/cdelaine/day00/obj/",
+        "outputPath": "/Users/cdelaine/day00/day1/ex00/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/cdelaine/.nuget/NuGet/NuGet.Config"

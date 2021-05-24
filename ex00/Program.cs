@@ -1,24 +1,5 @@
 ﻿using System;
 
-class MyProgram
-{
-	static double plateg(double stavka, int term, double sum)
-	{
-		double anoy = (sum * stavka * Math.Pow(1 + stavka, term)) / (Math.Pow(1 + stavka, term) - 1);
-		anoy = Math.Round(anoy, 2);
-		return (anoy);
-	}
-
-	static bool chek(string[] args)
-	{
-		if (args.Length != 5)
-			return (false);
-		if (double.TryParse(args[0], out _) == false || double.TryParse(args[1], out _) == false || int.TryParse(args[2], out _) == false || int.TryParse(args[3], out _) == false || double.TryParse(args[4], out _) == false)
-			return (false);
-		return (true);
-	}
-	static void Main(string[] args)
-	{
 		if (chek(args) == false)
 		{
 			Console.WriteLine("Ошибка ввода. Проверьте входные данные и повторите запрос.");
@@ -51,7 +32,23 @@ class MyProgram
 			Console.WriteLine($"Уменьшение срока выгоднее уменьшения платежа на {Math.Round(var1 - var2, 2)}");
 		else if (var1 == var2)
 			Console.WriteLine($"Переплата одинакова в обоих вариантах.");
+
+	static double plateg(double stavka, int term, double sum)
+	{
+		double anoy = (sum * stavka * Math.Pow(1 + stavka, term)) / (Math.Pow(1 + stavka, term) - 1);
+		anoy = Math.Round(anoy, 2);
+		return (anoy);
 	}
+
+	static bool chek(string[] args)
+	{
+		if (args.Length != 5)
+			return (false);
+		if (double.TryParse(args[0], out _) == false || double.TryParse(args[1], out _) == false || int.TryParse(args[2], out _) == false || int.TryParse(args[3], out _) == false || double.TryParse(args[4], out _) == false)
+			return (false);
+		return (true);
+	}
+
 	static double variant1(double sum, double stavka, int term, double anoy, double payment, int selectedMonth, double rate)
 	{
 		double ost = 0;
@@ -115,4 +112,3 @@ class MyProgram
 		ost = Math.Round(ost, 2);
 		return (ost);
 	}
-}
