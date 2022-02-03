@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center_horizontal"
+        android:text="@string/logo"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/TextColor"
+        android:textSize="28sp" />
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="100sp"
+        android:layout_marginHorizontal="50sp"
+        android:backgroundTint="@color/TextColor"
+        android:textColor="@color/black"
+        android:textColorHint="@color/TextColorHint"
+        android:inputType="textPersonName"
+        android:hint="@string/Hint_user_field" />
+
+    <Button
+        android:id="@+id/main_button"
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_field"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="130sp"
+        android:backgroundTint="@color/teal_200"
+        android:textColor="@color/black"
+        android:text="@string/main_button" />
+
+    <TextView
+        android:id="@+id/result_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:gravity="center_horizontal"
+        android:layout_below="@+id/main_button"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="@color/TextColorHint"
+        android:textSize="24sp" />
+
+</RelativeLayout>
